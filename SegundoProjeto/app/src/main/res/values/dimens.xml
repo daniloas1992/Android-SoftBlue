@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="borda_layout">10dp</dimen>
+    <dimen name="margem_vinte">20dp</dimen>
+    <dimen name="margem_dez">10dp</dimen>
+    <dimen name="margem_cinco">5dp</dimen>
+    <dimen name="texto_20">20sp</dimen>
+</resources>

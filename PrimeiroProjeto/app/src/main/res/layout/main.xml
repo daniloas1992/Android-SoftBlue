@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/btnAbrirSegundaTela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrir_segunda_tela"
+        android:text="@string/abrir_segunda_tela"/>
+
+    <Button
+        android:id="@+id/btnProcessar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/processar"/>
+
+    <Button
+        android:id="@+id/btnProcessarHandlerPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/processar_handler_post"/>
+
+    <Button
+        android:id="@+id/btnProcessarHandlerMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/processar_handler_msg"/>
+
+    <Button
+        android:id="@+id/btnProcessarAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/processar_asynctask"/>
+
+    <Button
+        android:id="@+id/btnProcessarHandlerContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/processar_handler_contador"/>
+
+    <TextView
+        android:id="@+id/tvStatusProcesso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

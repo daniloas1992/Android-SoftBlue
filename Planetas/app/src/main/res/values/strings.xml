@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Planetas</string>
+    <string name="drawer_open">Abrir o navigation drawer</string>
+    <string name="drawer_close">Fechar o navigation drawer</string>
+    <string name="Procurar">Procurar</string>
+    <string name="title_choose">Escolha um Planeta</string>
+
+</resources>

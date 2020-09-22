@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FragmentoDinamico</string>
+    <string name="fragmento_esquerda">Fragmento Esquerda</string>
+    <string name="fragmento_direita">Fragmento Direita</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/margem_dez"
+    android:paddingBottom="@dimen/margem_dez"
+    android:paddingRight="@dimen/margem_dez"
+    android:paddingLeft="@dimen/margem_dez"
+    tools:context=".TelaDois">
+
+    <TextView
+        android:id="@+id/tvDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dados_pessoais"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/texto_20"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:layout_alignBaseline="@id/etNome"
+        android:labelFor="@id/etNome"/>
+    
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvNome"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@id/etSobrenome"
+        android:inputType="textCapWords"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvSobrenome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sobrenome"
+        android:layout_alignBaseline="@id/etSobrenome"
+        android:labelFor="@id/etSobrenome"/>
+
+    <EditText
+        android:id="@+id/etSobrenome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvSobrenome"
+        android:layout_below="@id/etNome"
+        android:inputType="textCapWords"
+        tools:ignore="RtlHardcoded"
+        android:hint=""/>
+
+    <Button
+        android:id="@+id/btnOK_TelaDois"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/etSobrenome"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnCancelar_TelaDois"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:layout_toLeftOf="@id/btnOK_TelaDois"
+        android:layout_alignTop="@id/btnOK_TelaDois"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

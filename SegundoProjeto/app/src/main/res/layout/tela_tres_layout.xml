@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaTres">
+
+    <EditText
+        android:id="@+id/edtNome_telaTres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvNome_telaTres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvNome_telaTres" />
+
+    <EditText
+        android:id="@+id/edtEmail_telaTres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtNome_telaTres" />
+
+    <TextView
+        android:id="@+id/tvNome_telaTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/nome"
+        android:labelFor="@+id/edtNome_telaTres"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/email"
+        android:labelFor="@+id/edtEmail_telaTres"
+        app:layout_constraintStart_toStartOf="@+id/tvNome_telaTres"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome_telaTres" />
+
+    <Button
+        android:id="@+id/btnCancelar_telaTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/cancelar"
+        app:layout_constraintEnd_toStartOf="@+id/btnOk_telaTres"
+        app:layout_constraintTop_toTopOf="@+id/btnOk_telaTres" />
+
+    <Button
+        android:id="@+id/btnOk_telaTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/ok"
+        app:layout_constraintEnd_toEndOf="@+id/edtEmail_telaTres"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail_telaTres" />
+</android.support.constraint.ConstraintLayout>

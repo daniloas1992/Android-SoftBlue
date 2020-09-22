@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="opcoes">
+        <item>"Azul"</item>
+        <item>"Vermelho"</item>
+        <item>"Amarelo"</item>
+        <item>"Preto"</item>
+        <item>"Branco"</item>
+
+    </string-array>
+
+</resources>

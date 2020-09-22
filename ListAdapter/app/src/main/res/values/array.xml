@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="produtos">
+        <item>Café</item>
+        <item>Feijão</item>
+        <item>Arroz</item>
+        <item>Macarrão</item>
+        <item>Batata</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActionModes</string>
+    <string name="incrementar">Incrementar</string>
+    <string name="proximo">Próximo</string>
+    <string name="texto">Texto</string>
+    <string name="deletar">Deletar</string>
+    <string name="excluir">Excluir</string>
+    <string name="anterior">Anterior</string>
+</resources>

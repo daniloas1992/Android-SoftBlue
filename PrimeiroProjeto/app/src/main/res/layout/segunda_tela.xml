@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaTela"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSegundaTela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/segunda_tela"/>
+
+    <Button
+        android:id="@+id/btnTirarFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tirar_foto"
+        android:onClick="tirarFoto"/>
+
+    <Button
+        android:id="@+id/btnAbrirTelaTres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_tela_3"/>
+
+    <TextView
+        android:id="@+id/tvValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/um"/>
+
+</LinearLayout>

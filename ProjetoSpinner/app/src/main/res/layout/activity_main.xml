@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_uma_letra"
+        style="?android:attr/textAppearanceLarge" />
+    
+    <Spinner
+        android:id="@+id/spnLetras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15dp"/>
+
+    <Button
+        android:id="@+id/btnAbrirDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_dialog"
+        android:layout_marginTop="@dimen/dimen_15dp"/>
+
+    <Button
+        android:id="@+id/btnAbrirDialogLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_dialog_lista"
+        android:layout_marginTop="@dimen/dimen_15dp"/>
+
+    <Button
+        android:id="@+id/btnAbrirDialogListaSelecao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_dialog_lista_selecao"
+        android:layout_marginTop="@dimen/dimen_15dp"/>
+
+    <Button
+        android:id="@+id/btnAbrirDialogListaSelecaoMultipla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_dialog_lista_sele_o_multipla"
+        android:layout_marginTop="@dimen/dimen_15dp"/>
+
+    <Button
+        android:id="@+id/btnAbrirDataHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_data_hora"
+        android:layout_marginTop="@dimen/dimen_15dp"/>
+
+</LinearLayout>

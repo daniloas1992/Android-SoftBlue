@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProjetoSpinner</string>
+    <string name="escolha_uma_letra">Escolha uma letra:</string>
+    <string name="abrir_dialog">Abrir Dialog</string>
+    <string name="abrir_dialog_lista">Abrir Dialog Lista</string>
+    <string name="abrir_dialog_lista_selecao">Abrir Dialog Lista Selecao</string>
+    <string name="abrir_dialog_lista_sele_o_multipla">Abrir Dialog Lista Seleção Multipla</string>
+    <string name="abrir_data_hora">Abrir Data Hora</string>
+    <string name="selecionar_data">Selecionar Data</string>
+</resources>

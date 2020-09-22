@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PrimeiroProjeto</string>
+    <string name="abrir_segunda_tela">Abrir segunda tela</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="segunda_tela">Segunda Tela</string>
+    <string name="tirar_foto">Tirar Foto</string>
+    <string name="processar">Processar</string>
+    <string name="processar_handler_post">Processar Handler Post</string>
+    <string name="processar_handler_msg">Processar Handler MSG</string>
+    <string name="processar_asynctask">Processar AsyncTask</string>
+    <string name="processar_handler_contador">Processar Handler Contador</string>
+    <string name="abrir_tela_3">Abrir Tela 3</string>
+    <string name="voltar_tela_2">Voltar Tela 2</string>
+    <string name="um">1</string>
+</resources>

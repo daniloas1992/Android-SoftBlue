@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen_10dp"
+    android:baselineAligned="false"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragEsquerda"
+        android:name="com.example.fragmentos.FragmentoEsquerda"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginEnd="@dimen/dimen_5dp"
+        tools:layout="@layout/frag_esquerda_layout"/>
+
+    <fragment
+        android:id="@+id/fragDireita"
+        android:name="com.example.fragmentos.FragmentoDireita"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/dimen_5dp"
+        tools:layout="@layout/frag_direita_layout"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SegundoProjeto</string>
+    <string name="pergunta_linguagem">De qual linguagem de programação você gosta?</string>
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="c_plusplus">C++</string>
+    <string name="pergunta_paradigma">Qual paradigma de programação você prefere?</string>
+    <string name="procedural">Procedural</string>
+    <string name="poo">POO</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="dados_pessoais">Dados Pessoais</string>
+    <string name="nome">Nome:</string>
+    <string name="sobrenome">Sobrenome:</string>
+    <string name="email">E-mail:</string>
+    <string name="dados_processados">Dados processados!</string>
+    <string name="abrir_layout_um">Abrir Layout Um</string>
+    <string name="sexo">Sexo:</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="exibir">Exibir</string>
+    <string name="limpar">Limpar</string>
+    <string name="avancar">Avançar</string>
+    <string name="voltar">Voltar</string>
+    <string name="idade">Idade:</string>
+    <string name="nome_do_pai">Nome do pai:</string>
+    <string name="nome_da_mae">Nome da mãe:</string>
+    <string name="rua">Rua:</string>
+    <string name="numero">Número:</string>
+</resources>

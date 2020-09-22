@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDois">
+
+    <TextView
+        android:id="@+id/tvNome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margem_dez"
+        android:layout_marginLeft="@dimen/margem_cinco"
+        android:text="@string/nome"/>
+
+    <EditText
+        android:id="@+id/edtNomeDois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvNome2"
+        android:layout_toLeftOf="@id/tvIdade"
+        android:inputType="textCapWords"
+        android:layout_alignBaseline="@+id/tvNome2"/>
+
+    <TextView
+        android:id="@+id/tvIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/edtIdade"
+        android:text="@string/idade"
+        android:layout_marginTop="@dimen/margem_dez"/>
+
+    <EditText
+        android:id="@+id/edtIdade"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:inputType="number"
+        android:layout_alignBaseline="@+id/tvIdade"/>
+
+    <TextView
+        android:id="@+id/tvNomePai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNomeDois"
+        android:text="@string/nome_do_pai"
+        android:layout_marginLeft="@dimen/margem_cinco"
+        android:layout_marginTop="@dimen/margem_dez"/>
+
+    <EditText
+        android:id="@+id/edtNomePai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvNomePai"
+        android:layout_alignParentEnd="true"
+        android:inputType="textCapWords"
+        android:layout_alignBaseline="@+id/tvNomePai"/>
+
+    <TextView
+        android:id="@+id/tvNomeMae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNomePai"
+        android:text="@string/nome_da_mae"
+        android:layout_marginLeft="@dimen/margem_cinco"
+        android:layout_marginTop="@dimen/margem_vinte"/>
+
+    <EditText
+        android:id="@+id/edtNomeMae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvNomeMae"
+        android:layout_alignParentEnd="true"
+        android:inputType="textCapWords"
+        android:layout_alignBaseline="@+id/tvNomeMae"/>
+
+    <TextView
+        android:id="@+id/tvRua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNomeMae"
+        android:layout_marginTop="@dimen/margem_vinte"
+        android:layout_marginLeft="@dimen/margem_cinco"
+        android:text="@string/rua"/>
+
+    <EditText
+        android:id="@+id/edtRua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvRua"
+        android:layout_toLeftOf="@id/tvNumero"
+        android:inputType="textCapWords"
+        android:layout_alignBaseline="@+id/tvRua"/>
+
+    <TextView
+        android:id="@+id/tvNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/edtNumero"
+        android:layout_below="@id/edtNomeMae"
+        android:text="@string/numero"
+        android:layout_marginTop="@dimen/margem_dez"/>
+
+    <EditText
+        android:id="@+id/edtNumero"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:inputType="number"
+        android:layout_alignBaseline="@+id/tvRua"/>
+
+    <Button
+        android:id="@+id/btnVoltarLayoutUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:layout_below="@+id/tvRua"
+        android:layout_marginTop="@dimen/margem_vinte"
+        android:layout_alignLeft="@+id/tvRua"
+        style="?android:attr/button"/>
+
+    <Button
+        android:id="@+id/btnAvancarLayoutTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/avancar"
+        android:layout_below="@+id/tvRua"
+        android:layout_marginTop="@dimen/margem_vinte"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/margem_cinco"
+        style="?android:attr/button"/>
+
+</RelativeLayout>
